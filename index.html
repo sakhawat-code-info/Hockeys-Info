@@ -28,6 +28,7 @@
                         clifford: '#da373d',
                         'basic-color': '#FF4240',
                         'primary-text-color': '#131318',
+                        'input-bg': '#BCED6D',
                     }
                 }
             }
@@ -476,19 +477,19 @@
                 <!-- grid one -->
                 <div class="p-12 border-2 rounded-2xl">
                     <!-- single content  -->
-                    <div class="bg-[#BCED6D] px-8 py-11 space-y-6 mb-6 pb-14 rounded-2xl">
+                    <div class="bg-input-bg px-8 py-11 space-y-6 mb-6 pb-14 rounded-2xl">
                         <img src="Images/call.png" alt="img" class="h-12 w-12 mb-6">
                         <p>Phone Number : </p>
                         <p class="font-extrabold mt-3">(+62) 123-321-543</span></p>
                     </div>
                     <!-- single content  -->
-                    <div class="bg-[#BCED6D] px-8 py-11 space-y-6 mb-6 pb-14 rounded-2xl">
+                    <div class="bg-input-bg px-8 py-11 space-y-6 mb-6 pb-14 rounded-2xl">
                         <img src="Images/email.png" alt="img" class="h-12 w-12 mb-6">
                         <p>Email : </p>
                         <p class="font-extrabold mt-3">sakhawat.code.info@gmail.com</span></p>
                     </div>
                     <!-- single content  -->
-                    <div class="bg-[#BCED6D] px-8 py-11 space-y-6 mb-6 pb-14 rounded-2xl">
+                    <div class="bg-input-bg px-8 py-11 space-y-6 mb-6 pb-14 rounded-2xl">
                         <img src="Images/location.png" alt="img" class="h-12 w-12 mb-6">
                         <p>Location : </p>
                         <p class="font-extrabold mt-3">152/1 Mohakhali Wireless Gate</span></p>
@@ -498,94 +499,143 @@
                 <div class="lg:col-span-2">
                     <!-- input -->
                     <form action="">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
+                            <!-- input   -->
+                            <label class="form-control w-full">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Your Name</span>
+                                </div>
+                                <input class="input w-full h-16 bg-input-bg" type="text"
+                                    placeholder="Enter your full name" />
+                            </label>
+                            <!-- input   -->
+                            <label class="form-control w-full">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Your Email</span>
+                                </div>
+                                <input class="input w-full h-16 bg-input-bg" type="email"
+                                    placeholder="Enter your email" />
+                            </label>
+                            </label>
+                            <!-- input   -->
+                            <label class="form-control w-full">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Subject</span>
+                                </div>
+                                <input class="input w-full h-16 bg-input-bg" type="text"
+                                    placeholder="Enter your subject" />
+                            </label>
+                            <!-- input   -->
+                            <label class="form-control w-full">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Phone Number</span>
+                                </div>
+                                <input class="input w-full h-16 bg-input-bg" type="text"
+                                    placeholder="Enter your phone number" />
+                            </label>
+                            <!-- input textarea   -->
+                            <label class="form-control w-full col-span-2">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold">Message</span>
+                                </div>
+                                <textarea class="textarea textarea-bordered h-[370px] bg-input-bg"
+                                    placeholder="Write your message"></textarea>
+                            </label>
+                            <!-- input   -->
+                            <label class="form-control w-full col-span-2">
+                                <div class="label">
+                                    <span class="label-text text-xl font-bold"></span>
+                                </div>
+                                <input class="input w-full h-16 bg-basic-color" type="submit" value="Send Message" />
+                            </label>
 
-
-
-
-
-
-
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-
-                        <!-- input   -->
-                        <label class="form-control w-full">
-                            <div class="label">
-                                <span class="label-text text-xl font-bold">Your Name</span>
-                            </div>
-                            <input class="input w-full h-16 bg-[#BCED6D]" type="text" placeholder="Enter your full name" />                        
-                        </label>
-                        <!-- input   -->
-                        <label class="form-control w-full">
-                            <div class="label">
-                                <span class="label-text text-xl font-bold">Your Email</span>
-                            </div>
-                            <input class="input w-full h-16 bg-[#BCED6D]" type="email" placeholder="Enter your email" />                        
-                        </label>
-                        </label>
-                        <!-- input   -->
-                        <label class="form-control w-full">
-                            <div class="label">
-                                <span class="label-text text-xl font-bold">Subject</span>
-                            </div>
-                            <input class="input w-full h-16 bg-[#BCED6D]" type="text" placeholder="Enter your subject" />                        
-                        </label>
-                        <!-- input   -->
-                        <label class="form-control w-full">
-                            <div class="label">
-                                <span class="label-text text-xl font-bold">Phone Number</span>
-                            </div>
-                            <input class="input w-full h-16 bg-[#BCED6D]" type="text" placeholder="Enter your phone number" />                        
-                        </label>
-                        <!-- input textarea   -->
-                        <label class="form-control w-full col-span-2">
-                            <div class="label">
-                                <span class="label-text text-xl font-bold">Message</span>
-                            </div>
-                            <textarea class="textarea textarea-bordered h-[370px] bg-[#BCED6D]" placeholder="Write your message"></textarea>                        
-                        </label>
-                        <!-- input   -->
-                        <label class="form-control w-full col-span-2">
-                            <div class="label">
-                                <span class="label-text text-xl font-bold"></span>
-                            </div>
-                            <input class="input w-full h-16 bg-basic-color" type="submit" value="Send Message" />                        
-                        </label>
-
-                    </div>
-
-
-
-
-                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </form>
-
-
-
-
-
-
-
-
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
         <!-- input section end  -->
 
+
+
+        <section class="lg:mt-12">
+            <div class="bg-input-bg text-center space-y-6 py-9 rounded-2xl">
+                <h4 class="text-2xl font-bold">Social Media</h4>
+                <ul class="flex items-center justify-center gap-6">
+                    <li><a href=""><i class="fa-brands fa-facebook-f text-base lg:text-2xl"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter text-base lg:text-2xl"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-github text-base lg:text-2xl"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram text-base lg:text-2xl"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube text-base lg:text-2xl"></i></a></li>
+                </ul>
+            </div>
+        </section>
+
     </main>
+
+
+
+
+
+
+    <footer class="footer py-24 bg-primary-text-color text-white lg:mt-12">
+        <div class="container mx-auto">
+
+        
+
+        <div class="grid lg:grid-cols-5">
+            <!-- single grid  -->
+            <div class="col-span-2">
+                <aside>
+                    <h1>Get In Touch</h1>
+                    <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna
+                        in sit nullam proin. </p>
+                    <a class="link link-hover"><i class="fa-solid fa-envelope"></i> hockeys@support.com</a>
+                    <a class="link link-hover"><i class="fa-solid fa-phone"></i> (+62) 123-321-543</a>
+                </aside>
+            </div>
+            <!-- single grid  -->
+            <div>
+                <nav>
+                    <header class="footer-title">Services</header>
+                    <a class="link link-hover">Branding</a>
+                    <a class="link link-hover">Design</a>
+                    <a class="link link-hover">Marketing</a>
+                    <a class="link link-hover">Advertisement</a>
+                </nav>
+            </div>
+            <!-- single grid  -->
+            <div>
+                <nav>
+                    <header class="footer-title">Company</header>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+            </div>
+            <!-- single grid  -->
+            <div>
+                <nav>
+                    <header class="footer-title">Legal</header>
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </nav>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    </footer>
     <br>
     <br>
     <br>
